@@ -1,3 +1,5 @@
+x = clamp(x,160, room_width - 192 );
+y = clamp(y,160, room_height - 160 );
 var l47B03F0C_0 = false;
 l47B03F0C_0 = instance_exists(obj_danny);
 if(l47B03F0C_0)
