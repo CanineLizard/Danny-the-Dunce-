@@ -2,18 +2,9 @@
     "id": "a9f545e4-7dd8-49f5-967d-314ffacc382a",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_sci",
+    "name": "obj_Door",
     "eventList": [
-        {
-            "id": "8a8b3982-d5a3-46a2-a6bc-f9e053ef23c9",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": true,
-            "collisionObjectId": "491278cf-50a5-4ea2-8594-c3da2d7bdafa",
-            "enumb": 0,
-            "eventtype": 4,
-            "m_owner": "a9f545e4-7dd8-49f5-967d-314ffacc382a"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
@@ -31,7 +22,22 @@
     "physicsShape": 1,
     "physicsShapePoints": null,
     "physicsStartAwake": true,
-    "properties": null,
+    "properties": [
+        {
+            "id": "26bc0cc0-afc2-4363-a389-d65a3fb03314",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "Room",
+            "varType": 0
+        }
+    ],
     "solid": false,
     "spriteId": "0189819c-829c-4b61-bbda-39ba7e817b68",
     "visible": false
