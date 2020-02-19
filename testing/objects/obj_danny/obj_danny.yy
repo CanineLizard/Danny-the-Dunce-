@@ -81,7 +81,22 @@
     "physicsShape": 1,
     "physicsShapePoints": null,
     "physicsStartAwake": true,
-    "properties": null,
+    "properties": [
+        {
+            "id": "453f85fc-5061-4c1d-909f-46bf6031afb3",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "2",
+            "varName": "walk_speed",
+            "varType": 0
+        }
+    ],
     "solid": false,
     "spriteId": "9527a50a-0f4c-4472-acb3-0e59463d5d6c",
     "visible": true
