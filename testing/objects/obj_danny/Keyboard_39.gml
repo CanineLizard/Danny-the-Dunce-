@@ -5,6 +5,15 @@
 /// @DnDArgument : "not" "1"
 if(!(place_meeting(x+walk_speed,y,obj_wall)))
 {
+	/// @DnDAction : YoYo Games.Instances.Set_Sprite
+	/// @DnDVersion : 1
+	/// @DnDHash : 7A44F113
+	/// @DnDParent : 10F39D86
+	/// @DnDArgument : "spriteind" "spr_danny_right"
+	/// @DnDSaveInfo : "spriteind" "844ebd1d-95d5-4a11-96b9-7f1ec744b227"
+	sprite_index = spr_danny_right;
+	image_index = 0;
+
 	/// @DnDAction : YoYo Games.Movement.Jump_To_Point
 	/// @DnDVersion : 1
 	/// @DnDHash : 363C4C1C
