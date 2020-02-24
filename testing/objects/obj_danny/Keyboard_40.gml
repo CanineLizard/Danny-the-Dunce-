@@ -6,12 +6,21 @@
 sprite_index = danny;
 image_index = 0;
 
-/// @DnDAction : YoYo Games.Movement.Jump_To_Point
+/// @DnDAction : YoYo Games.Common.If_Expression
 /// @DnDVersion : 1
-/// @DnDHash : 0F88862A
-/// @DnDArgument : "x" "0"
-/// @DnDArgument : "x_relative" "1"
-/// @DnDArgument : "y" "2"
-/// @DnDArgument : "y_relative" "1"
-x += 0;
-y += 2;
+/// @DnDHash : 29562DA4
+/// @DnDArgument : "expr" "place_meeting(x,y+walk_speed,obj_wall)"
+/// @DnDArgument : "not" "1"
+if(!(place_meeting(x,y+walk_speed,obj_wall)))
+{
+	/// @DnDAction : YoYo Games.Movement.Jump_To_Point
+	/// @DnDVersion : 1
+	/// @DnDHash : 0F88862A
+	/// @DnDParent : 29562DA4
+	/// @DnDArgument : "x" "0"
+	/// @DnDArgument : "x_relative" "1"
+	/// @DnDArgument : "y" "walk_speed"
+	/// @DnDArgument : "y_relative" "1"
+	x += 0;
+	y += walk_speed;
+}
