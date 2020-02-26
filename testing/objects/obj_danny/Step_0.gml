@@ -1,8 +1,12 @@
 //Danny's sprite is determined by mouse
 
 playerAngle = point_direction(mouse_x, mouse_y, obj_danny.x, obj_danny.y)
-
-image_index = 0
+if(danny_walk = true){
+	image_speed = 1.3
+}else {
+	image_speed = 0
+}
+	
 
 //Looks down
 if (playerAngle > 45) and (playerAngle < 135) {

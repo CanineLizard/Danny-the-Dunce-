@@ -1,3 +1,10 @@
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 0159A1B9
+/// @DnDArgument : "expr" "true"
+/// @DnDArgument : "var" "danny_walk"
+danny_walk = true;
+
 /// @DnDAction : YoYo Games.Common.If_Expression
 /// @DnDVersion : 1
 /// @DnDHash : 1049C706
