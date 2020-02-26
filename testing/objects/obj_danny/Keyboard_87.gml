@@ -1,9 +1,9 @@
 /// @DnDAction : YoYo Games.Common.If_Expression
 /// @DnDVersion : 1
 /// @DnDHash : 2349068A
-/// @DnDArgument : "expr" "place_meeting(x+walk_speed,y,obj_wall)"
+/// @DnDArgument : "expr" "place_meeting(x,y-walk_speed,obj_wall)"
 /// @DnDArgument : "not" "1"
-if(!(place_meeting(x+walk_speed,y,obj_wall)))
+if(!(place_meeting(x,y-walk_speed,obj_wall)))
 {
 	/// @DnDAction : YoYo Games.Movement.Jump_To_Point
 	/// @DnDVersion : 1
