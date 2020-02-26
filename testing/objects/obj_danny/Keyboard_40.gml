@@ -1,14 +1,21 @@
 /// @DnDAction : YoYo Games.Instances.Set_Sprite
 /// @DnDVersion : 1
 /// @DnDHash : 37B16C17
+/// @DnDArgument : "imageind" ""
 /// @DnDArgument : "spriteind" "danny"
 /// @DnDSaveInfo : "spriteind" "9527a50a-0f4c-4472-acb3-0e59463d5d6c"
 sprite_index = danny;
-image_index = 0;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 352EE239
+/// @DnDArgument : "expr" "true"
+/// @DnDArgument : "var" "danny_walk"
+danny_walk = true;
 
 /// @DnDAction : YoYo Games.Common.If_Expression
 /// @DnDVersion : 1
-/// @DnDHash : 757FD5F9
+/// @DnDHash : 29562DA4
 /// @DnDArgument : "expr" "place_meeting(x,y+walk_speed,obj_wall)"
 /// @DnDArgument : "not" "1"
 if(!(place_meeting(x,y+walk_speed,obj_wall)))
@@ -16,7 +23,7 @@ if(!(place_meeting(x,y+walk_speed,obj_wall)))
 	/// @DnDAction : YoYo Games.Movement.Jump_To_Point
 	/// @DnDVersion : 1
 	/// @DnDHash : 0F88862A
-	/// @DnDParent : 757FD5F9
+	/// @DnDParent : 29562DA4
 	/// @DnDArgument : "x" "0"
 	/// @DnDArgument : "x_relative" "1"
 	/// @DnDArgument : "y" "walk_speed"
