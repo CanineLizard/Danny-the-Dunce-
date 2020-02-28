@@ -615,6 +615,14 @@
             }
         },
         {
+            "Key": "9659c4a0-306d-480f-8ca2-166d6f05009b",
+            "Value": {
+                "id": "62357e46-3365-454f-882d-348cc902def6",
+                "resourcePath": "objects\\obj_health\\obj_health.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "99da6058-e24a-4257-91c8-c57682695f36",
             "Value": {
                 "id": "657f4b55-b421-4ce6-bdaa-7db108f9a1da",
