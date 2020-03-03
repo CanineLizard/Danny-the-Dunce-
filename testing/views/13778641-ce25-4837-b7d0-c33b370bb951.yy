@@ -11,11 +11,11 @@
         "44365d52-b1ae-49fa-a3b6-dff0d552197b",
         "4014ced6-7f84-4494-b691-a03c7e0f063f",
         "59594da4-d1b0-46a3-bfa8-f62d37c46551",
-        "2802a031-fbd5-419a-93f1-a4c9a0e64e71",
+        "6d55892f-6181-472d-9501-b58d086a4839",
         "475d90f4-86ab-4575-b6fd-4ddafd374d25",
         "c6593ef5-30de-4ad7-a815-7e1f49237fff",
         "72da47f3-63c2-42d7-ae41-375ae092de2e",
-        "9b1429d4-ec78-4d43-88fd-5cae5dad43c9"
+        "cb87b4af-33d4-497f-9759-a4ec90ae9834"
     ],
     "filterType": "GMSprite",
     "folderName": "his",

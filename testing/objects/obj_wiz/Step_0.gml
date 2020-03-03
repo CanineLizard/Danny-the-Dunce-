@@ -15,12 +15,10 @@ if abs(hspeed)>abs(vspeed)
 	if hspeed>0
 	{
 		sprite_index = spr_wiz_r;
-	    image_index = 0;
 	}
 	else
 	{
 		sprite_index = spr_wiz_l;
-	    image_index = 0;
 	}
 }
 
@@ -29,11 +27,9 @@ if abs(vspeed)>abs(hspeed)
 	if vspeed>0
 	{
 		sprite_index = spr_wiz_f;
-	    image_index = 0;
 	}
 	else
 	{
 		sprite_index = spr_wiz_b;
-	    image_index = 0;
 	}
 }
