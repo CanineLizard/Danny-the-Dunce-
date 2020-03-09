@@ -499,22 +499,58 @@ if(l033E7025_0)
 with(other) var l06E88859_0 = Room == 50;
 if(l06E88859_0)
 {
-	/// @DnDAction : YoYo Games.Rooms.Go_To_Room
+	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
-	/// @DnDHash : 6006E9AB
+	/// @DnDHash : 062C0238
 	/// @DnDParent : 06E88859
-	/// @DnDArgument : "room" "final"
-	/// @DnDSaveInfo : "room" "20284c3d-11ff-413b-94e1-2cca9d781bb8"
-	room_goto(final);
-
-	/// @DnDAction : YoYo Games.Movement.Jump_To_Point
-	/// @DnDVersion : 1
-	/// @DnDHash : 1E39B122
-	/// @DnDParent : 06E88859
-	/// @DnDArgument : "x" "480"
-	/// @DnDArgument : "y" "600"
-	x = 480;
-	y = 600;
+	/// @DnDArgument : "var" "global.science_dungeon"
+	/// @DnDArgument : "value" "1"
+	if(global.science_dungeon == 1)
+	{
+		/// @DnDAction : YoYo Games.Common.If_Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 2C646D21
+		/// @DnDParent : 062C0238
+		/// @DnDArgument : "var" "global.math_dungeon"
+		/// @DnDArgument : "value" "1"
+		if(global.math_dungeon == 1)
+		{
+			/// @DnDAction : YoYo Games.Common.If_Variable
+			/// @DnDVersion : 1
+			/// @DnDHash : 193CBF0D
+			/// @DnDParent : 2C646D21
+			/// @DnDArgument : "var" "global.history_dungeon"
+			/// @DnDArgument : "value" "1"
+			if(global.history_dungeon == 1)
+			{
+				/// @DnDAction : YoYo Games.Common.If_Variable
+				/// @DnDVersion : 1
+				/// @DnDHash : 66BDB58A
+				/// @DnDParent : 193CBF0D
+				/// @DnDArgument : "var" "global.reading_dungeon"
+				/// @DnDArgument : "value" "1"
+				if(global.reading_dungeon == 1)
+				{
+					/// @DnDAction : YoYo Games.Rooms.Go_To_Room
+					/// @DnDVersion : 1
+					/// @DnDHash : 2D1FF7A0
+					/// @DnDParent : 66BDB58A
+					/// @DnDArgument : "room" "final"
+					/// @DnDSaveInfo : "room" "20284c3d-11ff-413b-94e1-2cca9d781bb8"
+					room_goto(final);
+				}
+			
+				/// @DnDAction : YoYo Games.Movement.Jump_To_Point
+				/// @DnDVersion : 1
+				/// @DnDHash : 72488054
+				/// @DnDParent : 193CBF0D
+				/// @DnDArgument : "x" "480"
+				/// @DnDArgument : "y" "600"
+				x = 480;
+				y = 600;
+			}
+		}
+	}
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable

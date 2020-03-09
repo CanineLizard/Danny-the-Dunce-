@@ -46,7 +46,7 @@ if(enemy_health <= 0)
 
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
-	/// @DnDHash : 4B58C9C9
+	/// @DnDHash : 0DB61906
 	/// @DnDParent : 2F94799F
 	/// @DnDArgument : "expr" "1"
 	/// @DnDArgument : "var" "global.reading_dungeon"
