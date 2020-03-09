@@ -46,15 +46,16 @@ if(enemy_health <= 0)
 
 	/// @DnDAction : YoYo Games.Common.Set_Global
 	/// @DnDVersion : 1
-	/// @DnDHash : 324FA1B7
+	/// @DnDHash : 691225AD
 	/// @DnDParent : 0EFA6AFD
 	/// @DnDArgument : "value" "1"
 	/// @DnDArgument : "var" "global.math_dungeon"
 	global.global.math_dungeon = 1;
-}
 
-/// @DnDAction : YoYo Games.Instances.Destroy_Instance
-/// @DnDVersion : 1
-/// @DnDHash : 06F9EB97
-/// @DnDApplyTo : other
-with(other) instance_destroy();
+	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+	/// @DnDVersion : 1
+	/// @DnDHash : 06F9EB97
+	/// @DnDApplyTo : other
+	/// @DnDParent : 0EFA6AFD
+	with(other) instance_destroy();
+}

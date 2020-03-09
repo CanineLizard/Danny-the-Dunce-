@@ -36,6 +36,20 @@
             "value": "0",
             "varName": "Room",
             "varType": 0
+        },
+        {
+            "id": "8f739182-326e-4131-9506-dfc146c6b28f",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "False",
+            "varName": "can_walk",
+            "varType": 3
         }
     ],
     "solid": false,
