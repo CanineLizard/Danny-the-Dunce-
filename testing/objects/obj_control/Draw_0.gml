@@ -20,12 +20,10 @@ if (room == asset_get_index("read33")) {
 	draw_text(733,150,"mettle");
 }
 if (room == asset_get_index("math13")) {
-	draw_set_font(font2);
-	draw_text(350,350,"p");
 	draw_set_font(font0);
-	draw_text(390, 360, "= 3.14___");
-	draw_set_font(font1);
-	draw_text(293,150,"265...");
-	draw_text(423,150,"926...");
-	draw_text(547,150,"159...");
+	draw_text(390, 360, "C = 2__r");
+	draw_set_font(font2);
+	draw_text(310,150,"b");
+	draw_text(440,150,"l");
+	draw_text(565,150,"p");
 }
