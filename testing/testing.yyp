@@ -223,6 +223,14 @@
             }
         },
         {
+            "Key": "29301fb2-7185-4344-bec0-ecf0eeb3cf95",
+            "Value": {
+                "id": "d019a2b6-14a5-4be1-95d2-fb8be111b8e4",
+                "resourcePath": "fonts\\font2\\font2.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "2b26f419-dccf-4cc3-88a6-1cb4e2b327f8",
             "Value": {
                 "id": "d3745a5f-289a-405d-8f92-276932251d9d",
@@ -404,6 +412,14 @@
                 "id": "b03f7d86-e784-4222-b72f-9533949fd658",
                 "resourcePath": "sounds\/snd_EnemyHit\/snd_EnemyHit.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "4cb42166-93f4-4cee-adcd-ef989e3fd063",
+            "Value": {
+                "id": "73f1823b-4335-4c97-bc9a-16ea146a92c9",
+                "resourcePath": "fonts\\font0\\font0.yy",
+                "resourceType": "GMFont"
             }
         },
         {
@@ -1036,6 +1052,14 @@
                 "id": "9c8f5c9c-cd4e-4761-84e4-81b2c5a0b8fe",
                 "resourcePath": "sprites\/spr_mit_r\/spr_mit_r.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c863cd33-aaf0-4e96-babf-cf004dd8a38c",
+            "Value": {
+                "id": "0f05d6b5-dad9-4bad-bf4c-0ff8f3d3bd36",
+                "resourcePath": "fonts\\font1\\font1.yy",
+                "resourceType": "GMFont"
             }
         },
         {
