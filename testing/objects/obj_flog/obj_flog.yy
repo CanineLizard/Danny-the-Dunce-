@@ -4,16 +4,7 @@
     "mvc": "1.0",
     "name": "obj_flog",
     "eventList": [
-        {
-            "id": "4f414208-bcc9-4ef8-8a2d-1a606177a61e",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "b35eeed0-e2fe-470e-8f68-f11b9bd434ee"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": [
@@ -48,6 +39,46 @@
             "objectId": "4a61c488-7db4-47c6-8148-ecdb032ce59a",
             "propertyId": "9c7c3bff-3952-41ab-8e1a-f3a204bd8be0",
             "value": "0"
+        },
+        {
+            "id": "69e6866a-f10b-49b2-918f-7865aedb1e58",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "4a61c488-7db4-47c6-8148-ecdb032ce59a",
+            "propertyId": "f7eb29a3-7188-4e85-b74f-39cc56b4b366",
+            "value": "spr_frog_front"
+        },
+        {
+            "id": "40d481d8-b424-4193-b6a5-7f7e9285c0f5",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "4a61c488-7db4-47c6-8148-ecdb032ce59a",
+            "propertyId": "92fb5532-c484-46de-8067-190eddcc86e0",
+            "value": "spr_frog_back"
+        },
+        {
+            "id": "2a687381-a3da-416a-ba96-0c81aeb7f8ac",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "4a61c488-7db4-47c6-8148-ecdb032ce59a",
+            "propertyId": "b43cf147-c3c6-4a50-8440-0cfa9319ffd2",
+            "value": "spr_frog_left"
+        },
+        {
+            "id": "dd7418fb-eaec-4fd3-ab58-4cac22af036a",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "4a61c488-7db4-47c6-8148-ecdb032ce59a",
+            "propertyId": "284297be-60d9-438c-86f1-34bc1679a358",
+            "value": "spr_frog_right"
+        },
+        {
+            "id": "0f51218f-d2b6-4bf0-b308-5e887ebc3793",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "4a61c488-7db4-47c6-8148-ecdb032ce59a",
+            "propertyId": "2c0a510b-45f3-48d8-a5f7-8e83ebe24107",
+            "value": "obj_frog_att"
         }
     ],
     "parentObjectId": "4a61c488-7db4-47c6-8148-ecdb032ce59a",
