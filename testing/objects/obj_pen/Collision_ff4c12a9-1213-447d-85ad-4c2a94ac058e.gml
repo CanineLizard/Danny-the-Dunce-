@@ -55,11 +55,14 @@ if(enemy_health <= 0)
 	/// @DnDAction : YoYo Games.Movement.Jump_To_Point
 	/// @DnDVersion : 1
 	/// @DnDHash : 2F041AAA
+	/// @DnDApplyTo : 491278cf-50a5-4ea2-8594-c3da2d7bdafa
 	/// @DnDParent : 2F94799F
-	/// @DnDArgument : "x" "170"
-	/// @DnDArgument : "y" "250"
-	x = 170;
-	y = 250;
+	/// @DnDArgument : "x" "448"
+	/// @DnDArgument : "y" "352"
+	with(obj_danny) {
+	x = 448;
+	y = 352;
+	}
 }
 
 /// @DnDAction : YoYo Games.Instances.Destroy_Instance

@@ -130,6 +130,14 @@ if(l39201364_0)
 with(other) var l7C015743_0 = Room == 14;
 if(l7C015743_0)
 {
+	/// @DnDAction : YoYo Games.Audio.Play_Audio
+	/// @DnDVersion : 1
+	/// @DnDHash : 5AF6751C
+	/// @DnDParent : 7C015743
+	/// @DnDArgument : "soundid" "snd_PuzzlePass"
+	/// @DnDSaveInfo : "soundid" "d639373c-91d4-4cbd-ac77-73d14713736e"
+	audio_play_sound(snd_PuzzlePass, 0, 0);
+
 	/// @DnDAction : YoYo Games.Rooms.Go_To_Room
 	/// @DnDVersion : 1
 	/// @DnDHash : 0D291839
@@ -471,6 +479,14 @@ if(l033E7025_0)
 	with(obj_Door) var l12992517_0 = can_walk;
 	if(l12992517_0)
 	{
+		/// @DnDAction : YoYo Games.Audio.Play_Audio
+		/// @DnDVersion : 1
+		/// @DnDHash : 7B0EF80A
+		/// @DnDParent : 12992517
+		/// @DnDArgument : "soundid" "snd_PuzzlePass"
+		/// @DnDSaveInfo : "soundid" "d639373c-91d4-4cbd-ac77-73d14713736e"
+		audio_play_sound(snd_PuzzlePass, 0, 0);
+	
 		/// @DnDAction : YoYo Games.Rooms.Go_To_Room
 		/// @DnDVersion : 1
 		/// @DnDHash : 3E13680F

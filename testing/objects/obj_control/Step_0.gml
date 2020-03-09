@@ -32,3 +32,20 @@ if(floor_pressed)
 		alarm_set(3, 360);
 	}
 }
+
+/// @DnDAction : YoYo Games.Common.Execute_Code
+/// @DnDVersion : 1
+/// @DnDHash : 5FC6B07F
+/// @DnDArgument : "code" "if (global.math_dungeon == 1){$(13_10)	instance_destroy(mathDungeonEnterance)$(13_10)}$(13_10)if (global.science_dungeon == 1){$(13_10)	instance_destroy(scienceDungeonEnterance)$(13_10)}$(13_10)if (global.reading_dungeon == 1){$(13_10)	instance_destroy(readingDungeonEnterance)$(13_10)}$(13_10)if (global.history_dungeon == 1){$(13_10)	instance_destroy(historyDungeonEnterance)$(13_10)}"
+if (global.math_dungeon == 1){
+	instance_destroy(mathDungeonEnterance)
+}
+if (global.science_dungeon == 1){
+	instance_destroy(scienceDungeonEnterance)
+}
+if (global.reading_dungeon == 1){
+	instance_destroy(readingDungeonEnterance)
+}
+if (global.history_dungeon == 1){
+	instance_destroy(historyDungeonEnterance)
+}
