@@ -12,7 +12,7 @@ if (room == asset_get_index("hist23")) {
 }
 if (room == asset_get_index("read33")) {
 	draw_set_font(font0);
-	draw_text(300,350,"Don't ___ with me!");
+	draw_text(250,350,"Who dares ___ with me?");
 	draw_set_font(font1);
 	draw_text(157,150,"medal");
 	draw_text(343,150,"meddle");
