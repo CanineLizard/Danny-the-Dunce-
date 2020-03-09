@@ -44,13 +44,13 @@ if(enemy_health <= 0)
 	/// @DnDSaveInfo : "script" "da0135e4-7a42-4313-97dc-0c55993a57f7"
 	script_execute(miniBossDefeat);
 
-	/// @DnDAction : YoYo Games.Common.Set_Global
+	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
-	/// @DnDHash : 65291EDC
+	/// @DnDHash : 78C24B2A
 	/// @DnDParent : 5AE71CCE
-	/// @DnDArgument : "value" "1"
+	/// @DnDArgument : "expr" "1"
 	/// @DnDArgument : "var" "global.history_dungeon"
-	global.global.history_dungeon = 1;
+	global.history_dungeon = 1;
 }
 
 /// @DnDAction : YoYo Games.Instances.Destroy_Instance
