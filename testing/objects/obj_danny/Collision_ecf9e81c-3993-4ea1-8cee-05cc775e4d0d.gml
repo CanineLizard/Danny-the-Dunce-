@@ -30,6 +30,14 @@ if(l5E1680DE_0)
 	/// @DnDArgument : "y" "250"
 	x = 170;
 	y = 250;
+
+	/// @DnDAction : YoYo Games.Instance Variables.Set_Health
+	/// @DnDVersion : 1
+	/// @DnDHash : 1FF11571
+	/// @DnDParent : 5E1680DE
+	/// @DnDArgument : "health" "-25"
+	
+	__dnd_health = real(-25);
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable

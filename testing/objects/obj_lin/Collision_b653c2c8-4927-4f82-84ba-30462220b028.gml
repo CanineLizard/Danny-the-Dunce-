@@ -51,6 +51,15 @@ if(enemy_health <= 0)
 	/// @DnDArgument : "expr" "1"
 	/// @DnDArgument : "var" "global.history_dungeon"
 	global.history_dungeon = 1;
+
+	/// @DnDAction : YoYo Games.Movement.Jump_To_Point
+	/// @DnDVersion : 1
+	/// @DnDHash : 05A91236
+	/// @DnDParent : 5AE71CCE
+	/// @DnDArgument : "x" "170"
+	/// @DnDArgument : "y" "250"
+	x = 170;
+	y = 250;
 }
 
 /// @DnDAction : YoYo Games.Instances.Destroy_Instance

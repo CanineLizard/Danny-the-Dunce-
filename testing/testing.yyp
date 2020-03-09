@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "0ea3ce44-4809-4118-81fd-6bc4dd89b3bc",
+            "Value": {
+                "id": "1af9fd81-2b93-46c3-a5bc-3d98703fb192",
+                "resourcePath": "sounds\\snd_HPdrink\\snd_HPdrink.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "125ae980-634b-43b5-814d-951192f2a307",
             "Value": {
                 "id": "62f99db8-a642-4d8c-a4b4-f560d483b0ae",
