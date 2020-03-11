@@ -187,6 +187,20 @@
             "value": "0",
             "varName": "enemy_bullet",
             "varType": 5
+        },
+        {
+            "id": "f696522d-7114-4a89-a9d6-3dfbe3f2a0b8",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "90",
+            "varName": "bullet_time",
+            "varType": 0
         }
     ],
     "solid": false,
