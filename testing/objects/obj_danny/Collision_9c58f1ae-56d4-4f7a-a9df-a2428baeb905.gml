@@ -1,4 +1,4 @@
-if (instance_exists(obj_danny) && !immune) {
+if (instance_exists(obj_danny) && !immune && !invincible) {
 	health -= other.att_damage;
 	immune = true;
 	audio_play_sound(snd_DanHurt, 10, false)

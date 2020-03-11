@@ -4,8 +4,9 @@ if (instance_exists(obj_danny)) {
 
 if (room == asset_get_index("hist23")) {
 	draw_set_font(font0);
-	draw_text(200,350,"Who was the 16th president?");
+	draw_text(210,350,"Who was the 16   president?");
 	draw_set_font(font1);
+	draw_text(515,350,"th");
 	draw_text(210,150,"Ulysses\n     S.\n  Grant");
 	draw_text(395,150,"Abraham\n Lincoln");
 	draw_text(597,150,"   John\nAdams");
@@ -23,7 +24,7 @@ if (room == asset_get_index("math13")) {
 	draw_set_font(font0);
 	draw_text(390, 360, "C = 2__r");
 	draw_set_font(font2);
-	draw_text(310,150,"b");
-	draw_text(440,150,"l");
-	draw_text(565,150,"p");
+	draw_text(315,150,"b");
+	draw_text(445,150,"l");
+	draw_text(570,150,"p");
 }
