@@ -52,8 +52,8 @@ if(can_attack == true)
 	/// @DnDVersion : 1
 	/// @DnDHash : 5A560DF9
 	/// @DnDParent : 107F3E9B
-	/// @DnDArgument : "steps" "90"
-	alarm_set(0, 90);
+	/// @DnDArgument : "steps" "bullet_alarm"
+	alarm_set(0, bullet_alarm);
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable

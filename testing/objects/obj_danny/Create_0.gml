@@ -1,1 +1,2 @@
 immune = false;
+stun = false;
