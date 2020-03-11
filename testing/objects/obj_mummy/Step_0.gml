@@ -6,7 +6,7 @@ if(l47B03F0C_0)
 {
 	direction = point_direction(x, y, obj_danny.x, obj_danny.y);
 
-	speed = enemy_speed;
+	speed = enemy_speed/(enemy_health/75);
 }
 
 

@@ -24,7 +24,7 @@
     "layers": [
         {
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
-            "name": "Walls",
+            "name": "Instances_1",
             "id": "ebf0cd57-7080-4788-b6d6-ef4b630f1ff4",
             "depth": 0,
             "grid_x": 32,
@@ -54,7 +54,7 @@
         },
         {
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
-            "name": "Instances_1",
+            "name": "Instances",
             "id": "f167730c-6b42-42bd-915a-dc63b91c54c8",
             "depth": 100,
             "grid_x": 32,

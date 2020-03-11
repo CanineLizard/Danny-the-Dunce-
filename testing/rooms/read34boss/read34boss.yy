@@ -52,7 +52,7 @@
         },
         {
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
-            "name": "Objects",
+            "name": "Instances",
             "id": "31bcc696-4619-4719-9c68-d81305400039",
             "depth": 100,
             "grid_x": 32,

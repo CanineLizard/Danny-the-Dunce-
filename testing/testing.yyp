@@ -1015,6 +1015,14 @@
             }
         },
         {
+            "Key": "b8cd11c0-853e-4d00-b776-d3e2fb5edde2",
+            "Value": {
+                "id": "720b9d85-cf26-4d5f-a886-b1a29e6b3735",
+                "resourcePath": "sounds\\snd_Incorrect\\snd_Incorrect.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "b9ca6cd8-bfbb-46bd-8b7c-ecfceeaa4337",
             "Value": {
                 "id": "33daf58d-3082-4adc-bca2-90e9791d30a3",
@@ -1239,14 +1247,6 @@
             }
         },
         {
-            "Key": "da0135e4-7a42-4313-97dc-0c55993a57f7",
-            "Value": {
-                "id": "b3acaaa5-c2a6-4074-9df0-da1786b477b6",
-                "resourcePath": "scripts\/miniBossDefeat\/miniBossDefeat.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "dba7449d-9333-492e-af62-833042eb7748",
             "Value": {
                 "id": "0db1f673-baa1-4c78-9d9a-1640e6b4a002",
@@ -1416,7 +1416,7 @@
         }
     ],
     "script_order": [
-        "da0135e4-7a42-4313-97dc-0c55993a57f7"
+        
     ],
     "tutorial": ""
 }

@@ -20,6 +20,12 @@ enemy_health += -15;
 /// @DnDArgument : "op" "3"
 if(enemy_health <= 0)
 {
+	/// @DnDAction : YoYo Games.Movement.Set_Speed
+	/// @DnDVersion : 1
+	/// @DnDHash : 27679158
+	/// @DnDParent : 0EFA6AFD
+	speed = 0;
+
 	/// @DnDAction : YoYo Games.Audio.Play_Audio
 	/// @DnDVersion : 1
 	/// @DnDHash : 47DE9732
@@ -36,14 +42,6 @@ if(enemy_health <= 0)
 	/// @DnDSaveInfo : "objind" "c00b6fcf-f049-4bec-b0fd-437bcca9beb0"
 	instance_change(obj_death, true);
 
-	/// @DnDAction : YoYo Games.Common.Execute_Script
-	/// @DnDVersion : 1.1
-	/// @DnDHash : 2D550A56
-	/// @DnDParent : 0EFA6AFD
-	/// @DnDArgument : "script" "miniBossDefeat"
-	/// @DnDSaveInfo : "script" "da0135e4-7a42-4313-97dc-0c55993a57f7"
-	script_execute(miniBossDefeat);
-
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 0C9ED632
@@ -52,22 +50,21 @@ if(enemy_health <= 0)
 	/// @DnDArgument : "var" "global.math_dungeon"
 	global.math_dungeon = 1;
 
-	/// @DnDAction : YoYo Games.Movement.Jump_To_Point
+	/// @DnDAction : YoYo Games.Instances.Set_Alarm
 	/// @DnDVersion : 1
-	/// @DnDHash : 1EE9FD79
+	/// @DnDHash : 1311D403
 	/// @DnDApplyTo : 491278cf-50a5-4ea2-8594-c3da2d7bdafa
 	/// @DnDParent : 0EFA6AFD
-	/// @DnDArgument : "x" "448"
-	/// @DnDArgument : "y" "352"
+	/// @DnDArgument : "steps" "50"
+	/// @DnDArgument : "alarm" "2"
 	with(obj_danny) {
-	x = 448;
-	y = 352;
+	alarm_set(2, 50);
+	
 	}
-
-	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
-	/// @DnDVersion : 1
-	/// @DnDHash : 06F9EB97
-	/// @DnDApplyTo : other
-	/// @DnDParent : 0EFA6AFD
-	with(other) instance_destroy();
 }
+
+/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+/// @DnDVersion : 1
+/// @DnDHash : 06F9EB97
+/// @DnDApplyTo : other
+with(other) instance_destroy();

@@ -28,6 +28,12 @@ if(enemy_health <= 0)
 	/// @DnDSaveInfo : "soundid" "073d4127-f287-4ac4-9206-83eda2f613f9"
 	audio_play_sound(snd_EnemyDeath, 0, 0);
 
+	/// @DnDAction : YoYo Games.Movement.Set_Speed
+	/// @DnDVersion : 1
+	/// @DnDHash : 233EBDB6
+	/// @DnDParent : 5AE71CCE
+	speed = 0;
+
 	/// @DnDAction : YoYo Games.Instances.Change_Instance
 	/// @DnDVersion : 1
 	/// @DnDHash : 5A04D5CA
@@ -35,14 +41,6 @@ if(enemy_health <= 0)
 	/// @DnDArgument : "objind" "obj_death"
 	/// @DnDSaveInfo : "objind" "c00b6fcf-f049-4bec-b0fd-437bcca9beb0"
 	instance_change(obj_death, true);
-
-	/// @DnDAction : YoYo Games.Common.Execute_Script
-	/// @DnDVersion : 1.1
-	/// @DnDHash : 3797B21B
-	/// @DnDParent : 5AE71CCE
-	/// @DnDArgument : "script" "miniBossDefeat"
-	/// @DnDSaveInfo : "script" "da0135e4-7a42-4313-97dc-0c55993a57f7"
-	script_execute(miniBossDefeat);
 
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
@@ -52,16 +50,16 @@ if(enemy_health <= 0)
 	/// @DnDArgument : "var" "global.history_dungeon"
 	global.history_dungeon = 1;
 
-	/// @DnDAction : YoYo Games.Movement.Jump_To_Point
+	/// @DnDAction : YoYo Games.Instances.Set_Alarm
 	/// @DnDVersion : 1
-	/// @DnDHash : 05A91236
+	/// @DnDHash : 6355C15E
 	/// @DnDApplyTo : 491278cf-50a5-4ea2-8594-c3da2d7bdafa
 	/// @DnDParent : 5AE71CCE
-	/// @DnDArgument : "x" "448"
-	/// @DnDArgument : "y" "352"
+	/// @DnDArgument : "steps" "50"
+	/// @DnDArgument : "alarm" "2"
 	with(obj_danny) {
-	x = 448;
-	y = 352;
+	alarm_set(2, 50);
+	
 	}
 }
 
