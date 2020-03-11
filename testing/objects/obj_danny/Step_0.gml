@@ -37,3 +37,19 @@ if (playerAngle > 315) or (playerAngle < 45) {
 
 cursor_sprite = spr_crosshair
 window_set_cursor(cr_none);
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 60BE795E
+/// @DnDArgument : "var" "health"
+/// @DnDArgument : "op" "3"
+if(health <= 0)
+{
+	/// @DnDAction : YoYo Games.Instances.Change_Instance
+	/// @DnDVersion : 1
+	/// @DnDHash : 4A5860FD
+	/// @DnDParent : 60BE795E
+	/// @DnDArgument : "objind" "obj_death"
+	/// @DnDSaveInfo : "objind" "c00b6fcf-f049-4bec-b0fd-437bcca9beb0"
+	instance_change(obj_death, true);
+}

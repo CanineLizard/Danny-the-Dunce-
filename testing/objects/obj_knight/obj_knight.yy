@@ -4,16 +4,7 @@
     "mvc": "1.0",
     "name": "obj_knight",
     "eventList": [
-        {
-            "id": "1be66df5-27ef-4287-8b79-33eb5c1c4682",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "1e76a8e7-5142-4bfc-9d22-619db88b2015"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": [
@@ -48,6 +39,54 @@
             "objectId": "4a61c488-7db4-47c6-8148-ecdb032ce59a",
             "propertyId": "9c7c3bff-3952-41ab-8e1a-f3a204bd8be0",
             "value": "0"
+        },
+        {
+            "id": "44915362-d208-4160-82c6-5e4ae053f1f4",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "4a61c488-7db4-47c6-8148-ecdb032ce59a",
+            "propertyId": "f7eb29a3-7188-4e85-b74f-39cc56b4b366",
+            "value": "spr_knight_front"
+        },
+        {
+            "id": "766f9b98-668c-4f99-8910-a9e73092871a",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "4a61c488-7db4-47c6-8148-ecdb032ce59a",
+            "propertyId": "92fb5532-c484-46de-8067-190eddcc86e0",
+            "value": "spr_knight_back"
+        },
+        {
+            "id": "c760812b-75aa-4131-ab2d-81d4b5b8a4ad",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "4a61c488-7db4-47c6-8148-ecdb032ce59a",
+            "propertyId": "b43cf147-c3c6-4a50-8440-0cfa9319ffd2",
+            "value": "spr_knight_back"
+        },
+        {
+            "id": "6c421f72-b33e-41a1-9227-f9a809620028",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "4a61c488-7db4-47c6-8148-ecdb032ce59a",
+            "propertyId": "284297be-60d9-438c-86f1-34bc1679a358",
+            "value": "spr_knight_right"
+        },
+        {
+            "id": "83750e2e-a353-4411-a9f0-60206a31f06a",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "4a61c488-7db4-47c6-8148-ecdb032ce59a",
+            "propertyId": "2c0a510b-45f3-48d8-a5f7-8e83ebe24107",
+            "value": "obj_sword"
+        },
+        {
+            "id": "90549b86-4f97-46cb-9eed-a860b157da7d",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "4a61c488-7db4-47c6-8148-ecdb032ce59a",
+            "propertyId": "f696522d-7114-4a89-a9d6-3dfbe3f2a0b8",
+            "value": "90"
         }
     ],
     "parentObjectId": "4a61c488-7db4-47c6-8148-ecdb032ce59a",
