@@ -1,0 +1,1 @@
+path_start(path_pencil, 4, path_action_restart, true);
